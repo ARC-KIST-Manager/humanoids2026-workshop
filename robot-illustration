@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 700" role="img" aria-labelledby="title desc">
+<title id="title">Abstract humanoid robot</title><desc id="desc">An illustrated humanoid robot surrounded by motion and sensing traces.</desc>
+<defs><radialGradient id="halo"><stop stop-color="#7de0d2" stop-opacity=".3"/><stop offset="1" stop-color="#7de0d2" stop-opacity="0"/></radialGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8f5e9"/><stop offset=".6" stop-color="#74d7c9"/><stop offset="1" stop-color="#eac08a"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2e5870"/><stop offset="1" stop-color="#12283e"/></linearGradient></defs>
+<circle cx="310" cy="338" r="300" fill="url(#halo)"/>
+<g fill="none" stroke="#9ce7df" opacity=".24"><circle cx="310" cy="338" r="260"/><circle cx="310" cy="338" r="205"/><circle cx="310" cy="338" r="145"/><path stroke-dasharray="3 10" d="M30 338h560M310 30v615M102 130l416 424M105 548 520 126"/></g>
+<g fill="none" stroke="#eac08a" stroke-width="2" opacity=".75"><path d="M97 160c60-49 110-71 165-79M503 162c41 59 50 108 47 151M96 493c-17-42-20-77-16-113"/></g><g fill="#eac08a"><circle cx="97" cy="160" r="4"/><circle cx="503" cy="162" r="4"/><circle cx="96" cy="493" r="4"/></g>
+<g fill="url(#metal)" stroke="url(#edge)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M269 132q42-24 86 0l9 38-15 32-30 14-37-14-23-31z"/><path d="M251 247q58-30 122 0l-9 112-47 31-59-30z"/><path d="M259 359q55 16 106 0l13 41-34 37h-61l-37-37z"/>
+<path d="M250 248l-36 14-34 83 21 18 32-66 21-12M372 248l37 14 43 84-18 22-44-70-20-12"/><path d="M180 345l-24 90 22 11 29-83M452 346l30 86-20 14-28-78"/><path d="M156 435l-16 31 6 30 30 4 18-20-16-36M482 432l16 30-6 30-30 8-18-20 18-35"/>
+<path d="M274 426l-25 92 18 49 39-9 17-115M349 428l23 92-13 46-37-9-7-114"/><path d="M249 519l-2 53-13 69 28 9 35-84M372 521l1 51 15 68-27 9-35-85"/><path d="M234 641l-28 17-1 13h58l13-24M388 640l29 18 1 13h-57l-14-24"/>
+</g><g fill="none" stroke="#a8ece2" stroke-width="2" opacity=".65"><path d="M271 152q43-13 77 0M283 178h61M295 214v24m39-24v24M265 261q52 11 95 0M281 301h69M292 336h46"/></g>
+<g fill="#10243a" stroke="#a8ece2" stroke-width="3"><circle cx="214" cy="263" r="8"/><circle cx="408" cy="262" r="8"/><circle cx="189" cy="355" r="8"/><circle cx="443" cy="356" r="8"/><circle cx="282" cy="433" r="9"/><circle cx="344" cy="433" r="9"/><circle cx="259" cy="522" r="8"/><circle cx="364" cy="522" r="8"/><circle cx="258" cy="573" r="7"/><circle cx="371" cy="573" r="7"/></g>
+<g fill="none" stroke="#eac08a" stroke-width="1.5" opacity=".75"><path d="M214 263 85 226H52M443 356l90 60h34M364 522l113 38h47"/></g><g fill="#eac08a" font-family="monospace" font-size="12" letter-spacing="2"><text x="52" y="217">MOTION</text><text x="481" y="407">SENSING</text><text x="452" y="551">CONTROL</text></g>
+</svg>

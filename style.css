@@ -42,58 +42,90 @@ p{margin:0 0 15px}.prose{max-width:860px}.prose p:last-child{margin-bottom:0}
 @media(max-width:360px){h1{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
-.speaker-list {
+.speaker-rows {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 32px 28px;
+    gap: 30px;
 }
 
-.speaker {
-    min-width: 0;
-    padding-bottom: 20px;
+.speaker-row {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+    padding-bottom: 30px;
     border-bottom: 1px solid var(--line);
 }
 
-.speaker-photo {
+.speaker-row:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+
+.speaker-image {
     display: block;
-    width: 120px;
-    height: 120px;
-    margin-bottom: 16px;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
     background: var(--soft);
 }
 
-.speaker-photo-empty {
+.speaker-image-empty {
     border: 1px solid var(--line);
 }
 
-.speaker h3 {
-    margin: 0;
-    font-size: 18px;
+.speaker-row h3 {
+    margin: 0 0 3px;
+    font-size: 21px;
 }
 
-.speaker p {
-    margin: 4px 0 0;
+.speaker-row h3 a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.speaker-row h3 a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+}
+
+.speaker-affiliation {
     color: var(--muted);
     font-size: 14px;
 }
 
-.speaker .speaker-talk {
-    margin-top: 12px;
-    font-size: 13px;
+.speaker-bio {
+    max-width: 680px;
+    margin: 15px 0 0;
+    line-height: 1.7;
 }
 
-@media (max-width: 760px) {
-    .speaker-list {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+.speaker-talk {
+    margin: 14px 0 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .speaker-row {
+        grid-template-columns: 150px minmax(0, 1fr);
+        gap: 18px;
+    }
+
+    .speaker-image {
+        width: 150px;
+        height: 150px;
     }
 }
 
-@media (max-width: 480px) {
-    .speaker-list {
+@media (max-width: 520px) {
+    .speaker-row {
         grid-template-columns: 1fr;
+    }
+
+    .speaker-image {
+        width: 180px;
+        height: 180px;
     }
 }
 

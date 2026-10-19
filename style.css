@@ -41,3 +41,58 @@ p{margin:0 0 15px}.prose{max-width:860px}.prose p:last-child{margin-bottom:0}
                         flex-basis: 96px;}}
 @media(max-width:360px){h1{font-size:24px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.speaker-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px 28px;
+}
+
+.speaker {
+    min-width: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--line);
+}
+
+.speaker-photo {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 16px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background: var(--soft);
+}
+
+.speaker-photo-empty {
+    border: 1px solid var(--line);
+}
+
+.speaker h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.speaker p {
+    margin: 4px 0 0;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.speaker .speaker-talk {
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+@media (max-width: 760px) {
+    .speaker-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .speaker-list {
+        grid-template-columns: 1fr;
+    }
+}

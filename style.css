@@ -117,8 +117,8 @@ p{margin:0 0 15px}.prose{max-width:860px}.prose p:last-child{margin-bottom:0}
 
 .speaker-talk strong {
   display: block;
-  color: var(--text);
-  font-size: 18px;
+  color: var(--muted);
+  font-size: 16px;
   font-weight: 600;
 }
 

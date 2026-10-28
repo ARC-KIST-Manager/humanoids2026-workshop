@@ -101,9 +101,25 @@ p{margin:0 0 15px}.prose{max-width:860px}.prose p:last-child{margin-bottom:0}
 }
 
 .speaker-talk {
-    margin: 14px 0 0;
-    color: var(--muted);
-    font-size: 14px;
+  margin: 14px 0 0;
+  line-height: 1.45;
+}
+
+.speaker-talk span {
+  display: block;
+  margin-bottom: 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.speaker-talk strong {
+  display: block;
+  color: var(--text);
+  font-size: 18px;
+  font-weight: 600;
 }
 
 @media (max-width: 700px) {
